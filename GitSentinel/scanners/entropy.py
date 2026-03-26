@@ -11,8 +11,7 @@ def calculate_entropy(text:str ) -> float:
     for freq in frequency.values():
         probability = freq / len(text)
         entropy -= probability * math.log2(probability)
-
     return entropy
 
-def is_high_entropy(string:str,threshold:float = 5.0) -> bool:
-    return calculate_entropy(string) > threshold
+def is_high_entropy(string:str,threshold:float = 4.0) -> bool:
+    return calculate_entropy(string) > threshold    
