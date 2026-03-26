@@ -1,0 +1,20 @@
+[
+    {
+        "filename": "test.py",
+        "line": 2,
+        "message": "AWS Access Key detected",
+        "severity": "High"
+    },
+    {
+        "filename": "test.py",
+        "line": 3,
+        "message": "Hardcoded Password detected",
+        "severity": "Medium"
+    },
+    {
+        "filename": "test.py",
+        "line": 4,
+        "message": "High Entropy String Detected (wJalrXUtnF...)",
+        "severity": "Medium"
+    }
+]
