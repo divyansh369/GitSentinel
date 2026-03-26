@@ -1,3 +1,18 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+GitSentinel/__pycache__
+# Metadata / Distribution
 *.egg-info/
+dist/
+build/
+
+# Environments
 .venv/
+env/
+
+# IDE settings
 .vscode/
+.idea/
